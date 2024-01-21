@@ -1,0 +1,5 @@
+- hosts: all
+  become: yes
+  tasks:
+  - name : Install unzip package
+    apt: name=unzip state=present update_cache=true

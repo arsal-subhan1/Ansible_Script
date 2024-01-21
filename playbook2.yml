@@ -1,0 +1,6 @@
+- name: playbook2
+  hosts: all
+  become: yes
+  tasks:
+  - name : Ensure nano is not there !
+    apt: name=nano state=absent update_cache=true
