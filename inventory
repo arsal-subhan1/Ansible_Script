@@ -1,0 +1,2 @@
+192.168.178.61 ansible_user=test02
+192.168.178.66 ansible_user=test03
