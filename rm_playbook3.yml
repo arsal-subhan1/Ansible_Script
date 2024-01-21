@@ -3,6 +3,6 @@
   become: true
   tasks:
   - name : install apache2 package !
-    apt: name=apache2 state=latest update_cache=yes
+    apt: name=apache2 state=absent update_cache=yes
   - name : support for php
-    apt: name=libapache2-mod-php state=latest update_cache=yes
+    apt: name=libapache2-mod-php state=absent update_cache=yes
